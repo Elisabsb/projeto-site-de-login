@@ -7,27 +7,29 @@
     box-sizing: border-box;
 }
 
-html {
+body, html {
     background-color: #F5BEF9;
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 85vh;
 }
 
 header {
-    background-color: #8DD5F8;
-    width: 100vh;
+    background: #8DD5F8 url(imagens/logo-img.png) no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    width: 100vw;
     height: 6rem;
+    text-align: center;
+    padding-top: 1.8rem;
+    font-family: 'Palanquin Dark', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#F56DEF;
 }
 
-header img {
-    display: none;
-}
-
-main, html {
+main {
     position: relative;
-    background-color: #ffffff;
-    width: 100vh;
-    height: 100vw;
+    background-color: rgb(245, 190, 249);
+    width: 100vw;
+    height: 85vh;
 }
 
 section#menu {
@@ -35,25 +37,116 @@ section#menu {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #9D8567;
-    width: 25rem;
-    height: 30rem;
+    background-color: #8DD5F8;
+    width: 22rem;
+    height: 36rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.308);
+    overflow: hidden;
+    display: block;
+    font-family: 'Paprika','Times New Roman', Times, serif;
     
 }
 
 
 div#image {
-    background: white url(imagens/plantaNoRosa.jpg) no-repeat;
-    background-size: cover;
-    height: 10rem;
+    background: white url(imagens/pink-back-small.jpg) no-repeat;
+    background-size:cover;
+    height: 14rem;
+    display: block;
+}
+
+div#form {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+div#form > p {
+    color: #1b3805;
+}
+
+div.login {
+    display: inline-block;
+    background-color: #f594f0;
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+div.login label {
+    display: none;
+}
+
+div.login input {
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    width: 82%;
+    height: 2rem;
+    transform: translateY(-0.59rem);
+    background-color: #86da46;
+    
+}
+
+div.login span {
+    font-size: 2em;
+    padding: 0.3rem;
+}
+
+input[type=submit] {
+    width: 80%;
+    height: 2.6rem;
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #86da46;
+    border: none;
+    border-radius: 0.4rem;
+    color: rgba(0, 0, 0, 0.900);
+}
+
+input[type=submit]:hover {
+    background-color: #f594f0;
+    color: white;
+    animation: ;
+}
+
+a.links {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 0.8rem 0rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(2rem);
+    color: #9D8567;
+}
+
+a.links:visited {
+    color: #9D8567;
 }
 
 footer {
     position: absolute;
-    background-color: #6F5F4A;
-    width: 100vh;
-    height: 2.5rem;
+    background: #6F5F4A url(imagens/brookelipsblack.png) no-repeat;
+    background-size: contain;
+    background-position: 98%;
+    width: 100vw;
+    height: 2.94rem;
+    padding: 1rem 0rem 0rem 1rem;
 }
+
+span.dev {
+    color: #F2A84E;
+}
+
 footer img {
     display: none;
+}
+
+div#form p {
+    text-align: center;
+    padding: 0.8rem 0rem 0.5rem 0rem;
 }
