@@ -27,7 +27,7 @@ header {
 
 main {
     position: relative;
-    background-color: rgb(245, 190, 249);
+    background-color: #A08A9F;
     width: 100vw;
     height: 85vh;
 }
@@ -37,7 +37,7 @@ section#menu {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #8DD5F8;
+    background-color: #F594F0;
     width: 22rem;
     height: 36rem;
     border-radius: 2rem;
@@ -61,12 +61,12 @@ div#form {
     padding-right: 0.8rem;
 }
 div#form > p {
-    color: #1b3805;
+    color: #527571;
 }
 
 div.login {
     display: inline-block;
-    background-color: #f594f0;
+    background-color: #F5E193;
     width: 90%;
     height: 2.5rem;
     border-radius: 0.4rem;
@@ -85,7 +85,8 @@ div.login input {
     width: 82%;
     height: 2rem;
     transform: translateY(-0.59rem);
-    background-color: #86da46;
+    background-color: #F5E193;
+    text-align: center;
     
 }
 
@@ -101,16 +102,16 @@ input[type=submit] {
     margin: auto;
     font-size: 1em;
     cursor: pointer;
-    background-color: #86da46;
+    background-color: #71a19c;
     border: none;
     border-radius: 0.4rem;
     color: rgba(0, 0, 0, 0.900);
+    box-shadow: 0rem 0rem 0.18rem rgba(0, 0, 0, 0.507);
 }
 
 input[type=submit]:hover {
-    background-color: #f594f0;
-    color: white;
-    animation: ;
+    background-color: #93F5E9;
+    color: black;
 }
 
 a.links {
@@ -121,11 +122,11 @@ a.links {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     transform: translateY(2rem);
-    color: #9D8567;
+    color: #F5E193;
 }
 
 a.links:visited {
-    color: #9D8567;
+    color: #F5E193;
 }
 
 footer {
